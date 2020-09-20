@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Smederevska tvr&#273;ava-kontakt</title>
+
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<!-- Komentar: Kaskadni stilovi u eksternom CSS fajlu (primer folder:css, fajl: style.css) -->
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<script src="script/proverakontakta.js"></script>
+<!-- Lokalni-moze da se koristi samo u ovoj stranici stilovi (pocetak) -->
+<style type="text/css">
+p {
+  	color: black;
+	font-family: verdana;
+   	font-size:100%;  
+  	left:0;
+}
+</style>
+<!-- Lokalni stilovi (kraj) -->
+</head>
+<body onclick="AktivnoPolje()" onload="DatumVreme()">
+<div class="flex-container">
+  	<div style="flex-grow: 0"><img alt="" height="93" src="images/logo.jpeg">
+  	<p id="poruka"></p>
+  	</div>
+	<div style="flex-grow: 1"></div>  
+	<div style="flex-shrink: 3">  
+   		<div class="meni">
+  				<a href="index.html">HOME</a>
+  				<a href="istorijat.html">ISTORIJAT</a>
+ 				<a href="restauracija.html">RESTAURACIJA</a>
+  				<a href="#" class="active">KONTAKT</a>  
+		</div>
+	</div>
+</div> 
+<div class="forma">
+	<h3>Registraciona forma</h3>
+	<form name='registration' onSubmit="return proveraForme();">
+<ul>
+<li><label for="ime">Ime i prezime:</label></li>
+<input type="text" name="ime" size="50" /><p></p>
+<li><label for="adresa">Adresa:</label></li>
+<input type="text" name="adresa" size="50" /><p></p>
+<li><label for="mesto">Mesto:</label></li>
+<input type="text" name="mesto" size="50" /><p></p>
+<li><label for="drzava">Dr&#382;ava:</label></li>
+<select name="drzava"><p></p>
+<option selected="" value="Default">(Selektujte dr&#382;avu)</option>
+<option value="SRB">Srbija</option>
+<option value="MNE">Crna Gora</option>
+<option value="MAK">Makedonija</option>
+<option value="RUS">Russia</option>
+<option value="USA">USA</option>
+</select><p></p>
+<li><label for="email">Email:</label></li>
+<input type="text" name="email" size="50" /><p></p>
+<li><label id="pol">Pol:</label></li>
+  <input type="radio" id="muski" name="gender" value="muski">
+  <label for="muski">Mu&#353;ki</label><br>
+  <input type="radio" id="zenski" name="gender" value="zenski">
+  <label for="zenski">&#381;enski</label><p></p>
+<label>&#381;elite li da primate obave&#353;tenja na navedenu mejl adresu:</label>
+<input type="checkbox" name="dane" value="da" checked /><span> DA</span>
+<li><label for="komentar">Komentar:</label></li>
+<textarea name="komentar" id="komentar" rows="4" cols="50"></textarea><p></p>
+<input type="submit" name="submit" value="Submit" />
+</ul>
+	</form>
+</div>
+
+<div class="mojDiv-center">
+ 	<div class="mojDiv-center">
+        <p class="tekstzuti"> Mali grad Smederevske tvr&#273;ave je otvoren za posetioce od 08 do 20 &#269;asova svakodnevno.<br>Za najavu grupnih poseta i usluge vodi&#269;a mo&#382;ete kontaktirati direktno putem telefonskog poziva na broj +381 26 615 666.</p>	
+		 	<p class="tekstbeli" id="vreme"></p>
+		<hr>
+	</div>
+   	<div class="div-crno">
+  		<a href="index.html">Home</a> &#8226; <a href="istorijat.html">Istorijat</a> &#8226; <a  href="restauracija.html">Restauracija</a> &#8226; <a class="aktivnastrana" href="#">Kontakt</a>
+	</div>
+</div>
+
+</body>
+
+</html>

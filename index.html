@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Smederevska tvr&#273;ava</title>
+
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<!-- Komentar: Kaskadni stilovi u eksternom CSS fajlu (primer folder:css, fajl: style.css) -->
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<script src="script/proverakontakta.js"></script>
+<!-- Lokalni-moze da se koristi samo u ovoj stranici stilovi (pocetak) -->
+<style type="text/css">
+h1 {
+  color: white;
+  font-family: verdana;
+  font-size: 200%;
+}
+p {
+  	color: black;
+	font-family: verdana;
+   	font-size:100%;  
+  	left:0;
+}
+ 
+
+</style>
+<!-- Lokalni stilovi (kraj) -->
+
+</head>
+<body onload="DatumVreme()">
+
+<div class="flex-container">
+  	<div style="flex-grow: 1"><img alt="" height="93" src="images/logo.jpeg">
+  	<input type="button" class="btn btn-success"
+                       style="font-weight: bold;display: inline;"
+                       value="Close"
+                       onclick="closeMe()">
+  	</div>
+
+	<div style="flex-grow: 1"></div>  
+	<div style="flex-shrink: 1">  
+   		<div class="meni">
+  				<a href="#" class="active">HOME</a>
+  				<a href="istorijat.html">ISTORIJAT</a>
+ 				<a href="restauracija.html">RESTAURACIJA</a>
+  				<a href="kontakt.html">KONTAKT</a>  
+		</div>
+	</div>
+</div> 
+<div class="flex-container">
+	<div style="flex-grow: 1"><img alt="" height="450" src="images/Smederevo-Mapa-postojeceg-stanja.jpg"  width="450" ></div>
+	<div style="flex-grow: 1">
+		<img alt="" height="450" src="images/Smederevska_tvr&#273;ava_danas;_Smederevo_fortress_today_04.jpg"  width="450"></div>
+	<div style="flex-grow: 1">
+		<div class="prvired">
+			<h1>Smederevska tvr&#273;ava</h1>
+		</div>
+  		<div class="drugired">
+			<p>Na u&#353;&#263;u reke Jezave u Dunav, na povr&#353;ini od 11 hektara nalazi se jedna od najve&#263;ih srednjovekovnih ravni&#269;arskih tvr&#273;ava u Evropi i poslednje veliko delo srpske arhitekture iz ovog perioda.</p>
+			<p>Podigao ju je despot &#272;ura&#273; Brankovi&#263; u XV veku u cilju odbrane od Turaka.</p>
+			<p>Zbog velike brzine kojom je smederevska tvr&#273;ava gra&#273;ena, mnogi graditelji su umrli od iznemoglosti rade&#263;i na gra&#273;evini. Za glavnog krivca, narod je proglasio despoticu Jerinu (Irina Kantakuzin) – &#382;enu despota &#272;ur&#273;a kojoj je i do danas ostalo ime “prokleta”.</p>
+	  	</div>
+	</div>
+</div>
+
+<div class="mojDiv-center"><h1>Manifestacije</h1>
+ 	<p class="tekstbeli"> Unutar njenih mo&#263;nih zidina danas se odr&#382;avaju koncerti i mnogobrojne kulturne i turisti&#269;ko-privredne manifestacije, <br> od kojih su najpoznatije “Smederevska jesen“ i festival “Tvr&#273;ava tetar“. </p>
+ 	<br><br>
+	<div class="zadnjired">
+		<div style="flex-grow: 1">
+        	<img src="images/dunav-FF.png" alt=""><br>
+			<a href="http://dunavfilmfest.rs/" target="_blank">FESTIVAL PODUNAVSKIH ZEMALJA</a>
+		</div>
+		<div style="flex-grow: 1">
+			<img src="images/teatar.jpeg" alt=""><br>
+			<a href="https://www.tvrdjavateatar.com/" target="_blank">TVR&#272;AVA TEATAR</a>
+		</div>
+		<div style="flex-grow: 1">
+        	<img src="images/grapes.png" alt=""><br>
+         	<a href="https://eventsinserbia.com/smederevska-jesen/" target="_blank">SMEDEREVSKA JESEN</a>
+		</div>
+		<div style="flex-grow: 1">
+			<img src="images/vitez2.jpeg" alt="" height="222"><br>
+         	<a href="https://eventsinserbia.com/bitka-nacija-vitezovi-se-vracaju-u-smederevo/" target="_blank">BITKA NACIJA</a>
+		</div>
+	</div>
+	<div class="mojDiv-center">
+        <p class="tekstzuti"> Mali grad Smederevske tvr&#273;ave je otvoren za posetioce od 08 do 20 &#269;asova svakodnevno.<br>Za najavu grupnih poseta i usluge vodi&#269;a mo&#382;ete kontaktirati direktno putem telefonskog poziva na broj +381 26 615 666.</p>	
+		 	<p class="tekstbeli" id="vreme"></p>
+		<hr>
+
+	</div>
+    <div class="div-crno">
+  		<a class="aktivnastrana" href="#">Home</a> &#8226; <a href="istorijat.html">Istorijat</a> &#8226; <a href="restauracija.html">Restauracija</a> &#8226; <a href="kontakt.html">Kontakt</a>
+
+	</div>
+	
+</div>
+
+</body>
+
+</html>

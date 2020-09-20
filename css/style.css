@@ -1,0 +1,179 @@
+﻿h1 {
+  color: white;
+  font-family: verdana;
+  font-size: 200%;
+}
+h2 {
+  color: black;
+  font-family: verdana;
+  font-size: 100%;
+  text-align: left;
+}
+h3 {
+  text-align: left;
+  color: #808080 !important;
+  font-family: Roboto,sans-serif !important;
+  font-weight: 400;
+  font-size: 2.25rem;
+  line-height: 1.1;
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+h4, h5 {
+
+    color: #92bbeb;
+    margin: 10px;
+}
+.mojDiv-center {
+  background-color:black;
+  text-align: center;
+  color: white;
+  font-family: courier;
+  font-size: 100%;
+}
+.mojDiv-left {
+  display: flex;
+  background-color:black;
+  text-align: left;
+  color: white;
+  font-family: courier;
+  font-size: 100%;
+}
+ 
+.div-crno {
+    background-color: black;
+	line-height: 100px;
+}
+.tekstbeli {
+	color: white;
+	font-size: 16px;  
+	background-color: transparent;
+	text-decoration: none;
+}
+.tekstcrni {
+	color: black;
+	font-size: 12px;  
+	background-color: transparent;
+	text-decoration: none;
+	text-align: left;
+}
+.tekstzuti {
+	color: pink;
+	font-size: 16px;  
+	background-color: transparent;
+	text-decoration: none;
+	padding: 15px;
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+  }
+a.aktivnastrana {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+
+}
+.meni {
+  overflow: hidden;
+  background-color: trasparent;
+  color: black;
+  text-decoration: none;
+  width: 100%;
+}
+.meni a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.meni a:hover {
+  background:  gray;
+  color: white;
+}
+.meni a.active {
+  background-color: gray;
+  color: white;
+}
+
+.flex-container {
+  display: flex;
+ .half {
+   flex-grow: 0;
+   flex-shrink: 0;
+   flex-basis: 40%;
+}
+}
+.flex-container > div {
+  margin: 10px;
+  text-align: center;
+  line-height: 15px;
+  font-size: 15px;
+}
+.prvired {
+ display: flex;	
+ padding: 10px;
+ flex: 0 0 80%;
+ max-width: 100%;
+ line-height: 130px;
+ background-color: black;
+ }
+.drugired {
+  padding: 0px;
+  width: 100%;  
+  background-color: white; 
+  text-align: left;
+ }
+.zadnjired {
+ display: flex;
+ padding: 0px;
+ width: 100%; 
+ text-align: center; 
+ background-color: black;
+}
+.forma {
+	 line-height: 30px;
+	 display: flex;
+	  font-family: courier;
+  font-size: 100%;
+	color: white;
+   padding: 0px;
+  width: 100%;  
+  text-align: left;
+ background-color: black;
+ }
+.naslovforme {
+	color: #808080 !important;
+	font-weight: 400;
+        font-size: 2.25rem;
+        line-height: 1.1;
+        margin-top: 20px;
+        margin-bottom: 20px;
+.main {
+  padding: 16px;
+  margin-bottom: 30px;
+}
+
+
